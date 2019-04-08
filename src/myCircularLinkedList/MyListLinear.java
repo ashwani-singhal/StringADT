@@ -25,7 +25,7 @@ public class MyListLinear {
             n.setData(data);
             if(isEmpty()){
                 head=tail=n;
-                n.setNext(null);
+                /*n.setNext(null);*/
             }
             else{
                 n.setNext(head);

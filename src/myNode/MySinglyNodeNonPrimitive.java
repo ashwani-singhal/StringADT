@@ -1,4 +1,3 @@
-/*
 package myNode;
 import mySinglyLinkedList.Employee;
 
@@ -27,4 +26,3 @@ public class MySinglyNodeNonPrimitive {
         this.data = data;
     }
 }
-*/

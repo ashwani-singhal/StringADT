@@ -23,13 +23,13 @@ public class MyList {
         MyDoubleNode n= new MyDoubleNode();
         n.setData(data);
         if(isEmpty()){
-            n.setPrevious(null);
-            n.setNext(null);
+           /* n.setPrevious(null);
+            n.setNext(null);*/
             head=tail=n;
         }
         else {
             n.setNext(head);
-            n.setPrevious(null);
+            /*n.setPrevious(null);*/
             head.setPrevious(n);
             head=n;
         }
@@ -45,7 +45,7 @@ public class MyList {
         }
         else {
             n.setPrevious(tail);
-            n.setNext(null);
+            /*n.setNext(null);*/
             tail.setNext(n);
             tail = n;
         }

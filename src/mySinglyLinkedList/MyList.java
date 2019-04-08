@@ -25,7 +25,7 @@ public class MyList {
         n.setData(data);
         if(isEmpty()){
             head=tail=n;
-            n.setNext(null);
+            /*n.setNext(null);*/
         }
         else{
             n.setNext(head);
@@ -42,7 +42,7 @@ public class MyList {
             return;
         }
         else{
-            n.setNext(null);
+            /*n.setNext(null);*/
             tail.setNext(n);
             tail=n;
         }

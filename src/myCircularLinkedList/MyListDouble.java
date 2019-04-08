@@ -22,8 +22,8 @@ public class MyListDouble {
         MyDoubleNode n=new MyDoubleNode();
         n.setData(data);
         if(isEmpty()){
-            n.setPrevious(null);
-            n.setNext(null);
+            /*n.setPrevious(null);
+            n.setNext(null);*/
             head=tail=n;
         }
         else {

@@ -23,8 +23,8 @@ public class MyCircularQueueDouble {
         n.setData(data);
         if(isEmpty()){
             front=n;
-            n.setPrevious(null);
-            n.setNext(null);
+            /*n.setPrevious(null);
+            n.setNext(null);*/
         }
         else if(size==1) {
             front.setNext(n);
