@@ -98,30 +98,37 @@ public class MyBinarySearchTree {
         if (current.getLeft()==null && current.getRight()==null){
             if(current.getData()<parent.getData()){
                 parent.setLeft(null);
+                return;
             }
             else if(current.getData()>parent.getData()){
                 parent.setRight(null);
+                return;
             }
             else{
                 root=null;
+                return;
             }
         }
 
         else if(current.getLeft()==null){
             if(current.getData()<parent.getData()){
                 parent.setLeft(current.getRight());
+                return;
             }
             else{
                 parent.setRight(current.getRight());
+                return;
             }
         }
 
         else if (current.getRight()==null){
             if(current.getData()<parent.getData()){
                 parent.setLeft(current.getLeft());
+                return;
             }
             else{
                 parent.setRight(current.getLeft());
+                return;
             }
         }
 
@@ -131,6 +138,7 @@ public class MyBinarySearchTree {
                 replace=current.getLeft();
                 current.setData(replace.getData());
                 current.setLeft(replace.getLeft());
+                return;
             }
             else{
                 replace=current.getLeft();
@@ -139,6 +147,7 @@ public class MyBinarySearchTree {
                 }
                 current.setData(replace.getRight().getData());
                 replace.setRight(null);
+                return;
             }
         }
     }
