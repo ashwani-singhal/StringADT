@@ -3,7 +3,7 @@ import myNode.MySinglyNodePrimitive;
 import java.util.Scanner;
 
 public class MyList {
-    Scanner s=new Scanner(System.in);
+    public static Scanner s=new Scanner(System.in);
     private MySinglyNodePrimitive head,tail;
     private int size;
 
@@ -146,23 +146,22 @@ public class MyList {
         size--;
     }
 
-    public void deleteAtAny(){
+    public boolean deleteAtAny(){
         System.out.println("ENTER THE POSITION AT WHICH YOU WANT TO DELETE ELEMENT");
         int position=s.nextInt();
         if(position<=0 || position>size){
             System.out.println("WRONG POSITION ENTERED");
+            return false;
         }
         else if(isEmpty()){
             deleteAtFirst();
-            return;
+            return false;
         }
         else if (position==1){
             deleteAtFirst();
-            return;
         }
         else if(position==size){
             deleteAtLast();
-            return;
         }
         else {
             MySinglyNodePrimitive temp=head;
@@ -172,6 +171,7 @@ public class MyList {
             temp.setNext(temp.getNext().getNext());
         }
         size--;
+        return true;
     }
 
     public void find(){
@@ -206,7 +206,6 @@ public class MyList {
 
     public static void main(String[] args) {
         MyList list=new MyList();
-        Scanner s=new Scanner(System.in);
         boolean flag=true;
         while (flag){
             System.out.println("ENTER YOUR CHOICE: \n 1. TO INSERT ELEMENT \n 2. TO DELETE ELEMENT \n 3. TO DISPLAY ELEMENTS \n 4. TO GET NUMBER OF ELEMENTS \n 5. TO FIND IF AN ELEMENT IS PRESENT OR NOT \n 6. TO CHECK IF LIST IS EMPTY \n 7. TO TERMINATE THE PROGRAM");
@@ -257,7 +256,11 @@ public class MyList {
                             System.out.println("ENTER THE NUMBER OF ELEMENTS YOU WANT TO DELETE");
                             int count2=s.nextInt();
                             while(count2!=0){
-                                list.deleteAtAny();
+                                boolean tanuj=list.deleteAtAny();
+                                if(!tanuj)
+                                {
+                                    break;
+                                }
                                 count2--;
                             }
                             break;
