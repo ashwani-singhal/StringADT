@@ -9,6 +9,8 @@ public class MyBinarySearchTree {
     private int size;
     private int edges;
     private int count;
+    private int count1;
+    private int count2;
 
     public boolean isEmpty() {
         return size == 0;
@@ -52,52 +54,83 @@ public class MyBinarySearchTree {
         if (isEmpty()) {
             System.out.println("YOUR TREE IS EMPTY");
         } else {
+            count2=1;
             searchNode(data, root);
+            if(count2==0){
+                System.out.println("ELEMENT IS FOUND");
+            }
+            else{
+                System.out.println("ELEMENT IS NOT FOUND \n PLEASE ENTER ANOTHER ELEMENT");
+            }
         }
     }
 
     private void searchNode(int data, MyTreeNode current) {
-        if (current.getData() == data) {
-            System.out.println("ELEMENT IS FOUND");
+        if (current!=null && current.getData() == data) {
+            count2--;
             return;
-        } else if (data < current.getData()) {
+        } else if (current!=null && data < current.getData()) {
             current = current.getLeft();
-        } else {
+        } else if(current!=null && data > current.getData()){
             current = current.getRight();
         }
-        searchNode(data, current);
+        if(current!=null) {
+            searchNode(data, current);
+        }
     }
 
-    public void removeNode() {
+    public boolean removeNode() {
         System.out.println("ENTER THE ELEMENT YOU WANT TO DELETE");
         int data = s.nextInt();
         if (isEmpty()) {
             System.out.println("TREE IS EMPTY");
-        } else {
-            replace(data, root, root);
-            size--;
+            return true;
         }
+        else {
+            if(root.getData()==data) {
+                replaceRoot(data,root,root);
+                System.out.println("ELEMENT HAS BEEN REMOVED");
+            }
+            else {
+                count1=1;
+                replace(data, root, root);
+                if(count1==0){
+                    System.out.println("ELEMENT IS REMOVED");
+                }
+                else {
+                    System.out.println("ELEMENT IS NOT FOUND \n SO, CAN'T BE REMOVED");
+                }
+            }
+        }
+        return false;
+    }
+
+    private void replaceRoot(int data,MyTreeNode current,MyTreeNode parent){
+        removeNode(current, parent);
+        size--;
+        return;
     }
 
     private void replace(int data, MyTreeNode current, MyTreeNode parent) {
-        if (current.getData() == data) {
-            removeNode(current, parent);
-            return;
-        }
         if (data < current.getData()) {
             parent = current;
             current = current.getLeft();
-            if (current.getLeft() != null) {
+            if (current!=null && current.getLeft() != null) {
                 replace(data, current, parent);
             }
         } else if (data > current.getData()) {
             parent = current;
             current = current.getRight();
-            if (current.getRight() != null) {
+            if (current!=null && current.getRight() != null) {
                 replace(data, current, parent);
             }
         }
-    }
+        if (current!=null && current.getData() == data) {
+            removeNode(current, parent);
+                size--;
+                count1--;
+            }
+        }
 
     private void removeNode(MyTreeNode current, MyTreeNode parent) {
 
@@ -115,8 +148,11 @@ public class MyBinarySearchTree {
             }
             else if (current.getData() < parent.getData()) {
                 parent.setLeft(current.getRight());
+                current.setData(0);
+
             } else {
                 parent.setRight(current.getRight());
+                current.setData(0);
             }
         } else if (current.getRight() == null) {
             if(current.getLeft()==parent.getLeft()){
@@ -124,8 +160,10 @@ public class MyBinarySearchTree {
             }
             else if (current.getData() < parent.getData()) {
                 parent.setLeft(current.getLeft());
+                current.setData(0);
             } else {
                 parent.setRight(current.getLeft());
+                current.setData(0);
             }
         } else {
             MyTreeNode replace = current;
@@ -175,11 +213,22 @@ public class MyBinarySearchTree {
         }
     }
 
+    public void toEmptyTree(){
+        if(root==null){
+            System.out.println("YOUR TREE IS ALREADY EMPTY");
+        }
+        else {
+            root=null;
+            size=0;
+            System.out.println("YOUR TREE HAS BEEN EMPTIED");
+        }
+    }
+
     public static void main(String[] args) {
         MyBinarySearchTree obj = new MyBinarySearchTree();
         boolean flag = true;
         while (flag) {
-            System.out.println(" \n ENTER YOUR CHOICE: \n 1. TO INSERT ELEMENT \n 2. TO DELETE ELEMENT \n 3. TO DISPLAY ELEMENTS \n 4. TO GET NUMBER OF ELEMENTS \n 5. TO CHECK IF LIST IS EMPTY \n 6. TO CHECK THE NUMBER OF LEVELS IN TREE \n 7. TO CHECK IF ELEMENT IS PRESENT OR NOT \n 8. TO TERMINATE THE PROGRAM");
+            System.out.println(" \n ENTER YOUR CHOICE: \n 1. TO INSERT ELEMENT \n 2. TO DELETE ELEMENT \n 3. TO DISPLAY ELEMENTS \n 4. TO GET NUMBER OF ELEMENTS \n 5. TO CHECK IF TREE IS EMPTY \n 6. TO CHECK THE NUMBER OF LEVELS IN TREE \n 7. TO CHECK IF ELEMENT IS PRESENT OR NOT \n 8. TO EMPTY THE PREVIOUS CONTANT OF TREE \n 9. TO TERMINATE THE PROGRAM");
             int choice = s.nextInt();
             switch (choice) {
                 case 1:
@@ -194,7 +243,10 @@ public class MyBinarySearchTree {
                     System.out.println("ENTER THE NUMBER OF ELEMENTS YOU WANT TO DELETE");
                     int number2 = s.nextInt();
                     while (number2 != 0) {
-                        obj.removeNode();
+                        boolean temp=obj.removeNode();
+                        if(temp){
+                            break;
+                        }
                         number2--;
                     }
                     break;
@@ -219,6 +271,9 @@ public class MyBinarySearchTree {
                     obj.searchNode();
                     break;
                 case 8:
+                    obj.toEmptyTree();
+                    break;
+                case 9:
                     flag = false;
             }
         }

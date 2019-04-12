@@ -256,8 +256,8 @@ public class MyList {
                             System.out.println("ENTER THE NUMBER OF ELEMENTS YOU WANT TO DELETE");
                             int count2=s.nextInt();
                             while(count2!=0){
-                                boolean tanuj=list.deleteAtAny();
-                                if(!tanuj)
+                                boolean temp=list.deleteAtAny();
+                                if(!temp)
                                 {
                                     break;
                                 }
