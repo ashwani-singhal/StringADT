@@ -124,7 +124,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BS_1">
+  <component name="RunManager" selected="Application.BS_5_Rotation (1)">
     <configuration name="BS_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearch_With_Iteration.BS_1" />
       <module name="StringADT" />
@@ -138,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BS_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.BinarySearch_Through_Iteration.BS_2" />
+    <configuration name="BS_2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch_With_Iteration.BS_2" />
       <module name="StringADT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinarySearch.BinarySearch_Through_Iteration.*" />
+          <option name="PATTERN" value="BinarySearch_With_Iteration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BS_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.BinarySearch_Through_Iteration.BS_3" />
+    <configuration name="BS_3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch_With_Iteration.BS_3" />
       <module name="StringADT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinarySearch.BinarySearch_Through_Iteration.*" />
+          <option name="PATTERN" value="BinarySearch_With_Iteration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BS_4_Rotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.BinarySearch_Through_Iteration.BS_4_Rotation" />
+    <configuration name="BS_4_Rotation (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch_With_Iteration.BS_4_Rotation" />
       <module name="StringADT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinarySearch.BinarySearch_Through_Iteration.*" />
+          <option name="PATTERN" value="BinarySearch_With_Iteration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BS_5_Rotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.BinarySearch_Through_Iteration.BS_5_Rotation" />
+    <configuration name="BS_5_Rotation (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch_With_Iteration.BS_5_Rotation" />
       <module name="StringADT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinarySearch.BinarySearch_Through_Iteration.*" />
+          <option name="PATTERN" value="BinarySearch_With_Iteration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BS_5_Rotation (1)" />
+        <item itemvalue="Application.BS_4_Rotation (1)" />
+        <item itemvalue="Application.BS_3 (1)" />
+        <item itemvalue="Application.BS_2 (1)" />
         <item itemvalue="Application.BS_1" />
-        <item itemvalue="Application.BS_5_Rotation" />
-        <item itemvalue="Application.BS_4_Rotation" />
-        <item itemvalue="Application.BS_3" />
-        <item itemvalue="Application.BS_2" />
       </list>
     </recent_temporary>
   </component>
