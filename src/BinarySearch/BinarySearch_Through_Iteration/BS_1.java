@@ -1,11 +1,11 @@
-//BINARY SEARCH WITH NON-REPEATED ELEMENTS USING ITERATION
+//BINARY SEARCH WITH NON-REPEATED ELEMENTS
 
-package BinarySearch;
+package BinarySearch.BinarySearch_Through_Iteration;
 import java.util.Scanner;
 
-public class BS_Iteration {
+public class BS_1 {
 
-    int BinarySearch_No_Repeated_Elements(int elements[],int search_element){
+    int BinarySearch(int elements[],int search_element){
         int answer=-1,first=0,last=elements.length-1;
         while (first<=last){
             int mid=first+((last-first)/2);
@@ -24,7 +24,7 @@ public class BS_Iteration {
     }
 
     public static void main(String[] args) {
-        BS_Iteration object=new BS_Iteration();
+        BS_1 object=new BS_1();
         try {
             Scanner scan = new Scanner(System.in);
             System.out.println("enter the number of elements");
@@ -35,8 +35,8 @@ public class BS_Iteration {
                 elements[i] = scan.nextInt();
             }
             System.out.println("enter the element you want to search");
-            int search_elemeent = scan.nextInt();
-            int temp = object.BinarySearch_No_Repeated_Elements(elements, search_elemeent);
+            int search_element = scan.nextInt();
+            int temp = object.BinarySearch(elements, search_element);
             if (temp == -1) {
                 System.out.println("element is not found");
             } else {
