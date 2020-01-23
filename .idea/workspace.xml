@@ -2,35 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2015981b-fc7b-4f98-b00a-229e448caa9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Sorting_Algorithms/Bubble_Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting_Algorithms/Insertion_Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting_Algorithms/Merge_Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting_Algorithms/Quick_sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting_Algorithms/Selection_Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Sorting_Algorithms/Quick_sort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,109 +26,23 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/BinarySearch/BS0_Iteration.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearch/BS_Iteration.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearch/BS_Recursion.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearch/BinarySearch_Iteration/BS_Iteration.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearch/BinarySearch_Recursion/BS_Recursion.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearch/BinarySearch_Iteration/BS_Iteration_1.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearch/BinarySearch_Iteration/BS_Iteration_2.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearch/BinarySearch_Recursion/BS_Recursion_1.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearch/BinarySearch_Iteration/BS_Iteration_3.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearch/BinarySearch_Iteration/BS_Iteration_4_Rotation.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearch/BinarySearch_Through_Iteration/BS_Iteration_3.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearch/BinarySearch_Through_Iteration/BS_3.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearch/BinarySearch_Through_Iteration/BS_5_Rotation.java" />
-        <option value="$PROJECT_DIR$/src/Programme_On_Recursion/BS_Recursion_1.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearch_Iteration/BS_1.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearch_Using_Iteration/BS_1.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearch_Using_Iteration/BS_2.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearch_Using_Iteration/BS_3.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearch_Using_Iteration/BS_4_Rotation.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearch_Using_Iteration/BS_5_Rotation.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearch_With_Iteration/BS_1.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearch_With_Iteration/BS_3.java" />
-        <option value="$PROJECT_DIR$/src/Sorting_Algorithms/Selection_Sort.java" />
-        <option value="$PROJECT_DIR$/src/Sorting_Algorithms/Bubble_Sort.java" />
-        <option value="$PROJECT_DIR$/src/Sorting_Algorithms/Insertion_Sort.java" />
-        <option value="$PROJECT_DIR$/src/Sorting_Algorithms/Merge_Sort.java" />
-        <option value="$PROJECT_DIR$/src/Sorting_Algorithms/Quick_sort.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="930" />
-    <option name="y" value="25" />
-    <option name="width" value="905" />
-    <option name="height" value="980" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="StringADT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StringADT" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StringADT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StringADT" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StringADT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StringADT" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Sorting_Algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1Si0jLfB451tegzIOTHI2EJZSaG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Quick_sort">
-    <configuration name="Bubble_Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting_Algorithms.Bubble_Sort" />
-      <module name="StringADT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sorting_Algorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MyList">
     <configuration name="Insertion_Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sorting_Algorithms.Insertion_Sort" />
       <module name="StringADT" />
@@ -177,6 +69,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myTree.MyBinarySearchTree" />
+      <module name="StringADT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mySinglyLinkedList.MyList" />
+      <module name="StringADT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mySinglyLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Quick_sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sorting_Algorithms.Quick_sort" />
       <module name="StringADT" />
@@ -190,28 +108,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selection_Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting_Algorithms.Selection_Sort" />
-      <module name="StringADT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sorting_Algorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyList" />
+        <item itemvalue="Application.MyBinarySearchTree" />
         <item itemvalue="Application.Quick_sort" />
         <item itemvalue="Application.Merge_Sort" />
         <item itemvalue="Application.Insertion_Sort" />
-        <item itemvalue="Application.Bubble_Sort" />
-        <item itemvalue="Application.Selection_Sort" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -223,6 +140,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560683990877</updated>
+      <workItem from="1572031246855" duration="119000" />
+      <workItem from="1574111873366" duration="4000" />
+      <workItem from="1577092215049" duration="180000" />
+      <workItem from="1577204238132" duration="50000" />
+      <workItem from="1577206086303" duration="1005000" />
+      <workItem from="1578647824804" duration="286000" />
+      <workItem from="1578648539899" duration="46000" />
+      <workItem from="1579802862562" duration="96000" />
+      <workItem from="1579803183629" duration="314000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1561634809687</created>
@@ -294,70 +220,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561660129608</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="init commit">
+      <created>1562014059849</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1562014059849</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2966443" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986577" weight="0.32719547" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.30878186" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5013423" side_tool="true" weight="0.32719547" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49932885" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28456375" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.3286119" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.32719547" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.30878186" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067115" side_tool="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49932885" weight="0.3286119" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout-to-restore>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -365,20 +239,7 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -403,124 +264,49 @@
     <MESSAGE value="init commit" />
     <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1578648110416">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578648110416" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1578648110416">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578648110416" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1578648110416">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578648110416" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1578648110416">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578648110416" />
+    <state width="254" height="198" key="RunAnythingAction_Filter_Popup" timestamp="1578647851763">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="254" height="198" key="RunAnythingAction_Filter_Popup/0.0.1536.824@0.0.1536.824" timestamp="1578647851763" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1577204239938">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1577204239938" />
+    <state x="209" y="34" key="new project wizard" timestamp="1579802953635">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="34" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1579802953635" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1578647851768">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1578647851768" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/BinarySearch_With_Iteration/BS_2.java</url>
-          <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/myTree/MyBinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch/BS_Iteration.java" />
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch/BS_Recursion.java" />
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch/BinarySearch_Through_Iteration/qwerty.java" />
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch/BinarySearch_Recursion/BS_Recursion_1.java" />
-    <entry file="file://$PROJECT_DIR$/src/Programme_On_Recursion/BS_Recursion_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch/asdf.java" />
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch_Iteration/BS_1.java" />
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch_Iteration/BS_2.java" />
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch_Iteration/BS_3.java" />
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch_Iteration/BS_4_Rotation.java" />
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch_Iteration/BS_5_Rotation.java" />
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch_With_Iteration/BS_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch_With_Iteration/BS_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#2004#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch_With_Iteration/BS_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#1922#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch_With_Iteration/BS_4_Rotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#1825#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch_With_Iteration/BS_5_Rotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#2075#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sorting_Algorithms/Selection_Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sorting_Algorithms/Insertion_Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sorting_Algorithms/Merge_Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sorting_Algorithms/Bubble_Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sorting_Algorithms/Quick_sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
