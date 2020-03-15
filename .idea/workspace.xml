@@ -40,34 +40,9 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.N_Queen">
-    <configuration name="Merge_Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting_Algorithms.Merge_Sort" />
-      <module name="StringADT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sorting_Algorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="myTree.MyBinarySearchTree" />
-      <module name="StringADT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NQueen_Col">
     <configuration name="MyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mySinglyLinkedList.MyList" />
       <module name="StringADT" />
@@ -81,6 +56,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NQueenProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NQueenProblem" />
+      <module name="StringADT" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NQueen_Col" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NQueen_Col" />
+      <module name="StringADT" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NQueen_Row" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NQueen_Row" />
+      <module name="StringADT" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="N_Queen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="N_Queen" />
       <module name="StringADT" />
@@ -88,26 +84,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Quick_sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting_Algorithms.Quick_sort" />
-      <module name="StringADT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sorting_Algorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NQueen_Col" />
+        <item itemvalue="Application.NQueen_Row" />
+        <item itemvalue="Application.NQueenProblem" />
         <item itemvalue="Application.N_Queen" />
         <item itemvalue="Application.MyList" />
-        <item itemvalue="Application.MyBinarySearchTree" />
-        <item itemvalue="Application.Quick_sort" />
-        <item itemvalue="Application.Merge_Sort" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +130,17 @@
       <workItem from="1580465041608" duration="2318000" />
       <workItem from="1580550615972" duration="307000" />
       <workItem from="1580551434944" duration="453000" />
+      <workItem from="1581273845796" duration="643000" />
+      <workItem from="1581670655725" duration="14000" />
+      <workItem from="1581915304680" duration="2805000" />
+      <workItem from="1581931768390" duration="6272000" />
+      <workItem from="1582216485277" duration="200000" />
+      <workItem from="1582216833419" duration="29000" />
+      <workItem from="1582477690063" duration="2176000" />
+      <workItem from="1582726049360" duration="831000" />
+      <workItem from="1583167758465" duration="55000" />
+      <workItem from="1583435309463" duration="73000" />
+      <workItem from="1584246767197" duration="234000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1561634809687</created>
@@ -232,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579803625650</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="init commit">
+      <created>1581273962206</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1581273962206</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,34 +271,54 @@
     <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="6" key="CommitChangelistDialog2" timestamp="1581273951577">
+    <state x="393" y="6" key="CommitChangelistDialog2" timestamp="1581273960898">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581273951577" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1580475628898">
+    <state x="393" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581273960898" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1582022922102">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580475628898" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1580475628898">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582022922102" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1582022922098">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580475628898" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1580475628898">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582022922098" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1582022922080">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580475628898" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1580475628898">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582022922080" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1582022922099">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580475628898" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582022922099" />
+    <state width="1493" height="427" key="GridCell.Tab.1.bottom" timestamp="1581918245770">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="427" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581918245770" />
+    <state width="1493" height="427" key="GridCell.Tab.1.center" timestamp="1581918245770">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="427" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581918245770" />
+    <state width="1493" height="427" key="GridCell.Tab.1.left" timestamp="1581918245770">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="427" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581918245770" />
+    <state width="1493" height="427" key="GridCell.Tab.1.right" timestamp="1581918245770">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="427" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581918245770" />
     <state width="254" height="198" key="RunAnythingAction_Filter_Popup" timestamp="1578647851763">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="254" height="198" key="RunAnythingAction_Filter_Popup/0.0.1536.824@0.0.1536.824" timestamp="1578647851763" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1579803934229">
+    <state x="277" y="56" key="SettingsEditor" timestamp="1581916747964">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1579803934229" />
+    <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581916747964" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581274288436">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581274288436" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1580465045462">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -306,10 +327,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="209" y="34" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1579802953635" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1578647851768">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1581916726997">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1578647851768" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1581916726997" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
