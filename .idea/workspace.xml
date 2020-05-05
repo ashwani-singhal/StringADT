@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2015981b-fc7b-4f98-b00a-229e448caa9e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/matrixDiagonal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic_Programming/Tilling_problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dynamic_Programming/Tilling_problem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +30,6 @@
   <component name="ProjectId" id="1Si0jLfB451tegzIOTHI2EJZSaG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -42,20 +43,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.NQueen_Col">
-    <configuration name="MyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mySinglyLinkedList.MyList" />
-      <module name="StringADT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mySinglyLinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.matrixDiagonal">
     <configuration name="NQueenProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NQueenProblem" />
       <module name="StringADT" />
@@ -77,8 +65,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="N_Queen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="N_Queen" />
+    <configuration name="Tilling_problem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dynamic_Programming.Tilling_problem" />
+      <module name="StringADT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dynamic_Programming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="matrixDiagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="matrixDiagonal" />
       <module name="StringADT" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,25 +87,13 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.matrixDiagonal" />
+        <item itemvalue="Application.Tilling_problem" />
         <item itemvalue="Application.NQueen_Col" />
         <item itemvalue="Application.NQueen_Row" />
         <item itemvalue="Application.NQueenProblem" />
-        <item itemvalue="Application.N_Queen" />
-        <item itemvalue="Application.MyList" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -144,6 +133,11 @@
       <workItem from="1584247571847" duration="703000" />
       <workItem from="1584350285994" duration="22000" />
       <workItem from="1586510012022" duration="1611000" />
+      <workItem from="1586845524324" duration="2845000" />
+      <workItem from="1587714302852" duration="950000" />
+      <workItem from="1587716280745" duration="470000" />
+      <workItem from="1588053920225" duration="1497000" />
+      <workItem from="1588690259095" duration="817000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1561634809687</created>
@@ -257,20 +251,25 @@
       <option name="project" value="LOCAL" />
       <updated>1584247647657</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="init commit">
+      <created>1586845690397</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1586845690397</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -289,33 +288,42 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="6" key="CommitChangelistDialog2" timestamp="1586845673714">
+    <state x="449" y="168" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588690449546">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="449" y="168" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.864@0.0.1536.864" timestamp="1588690449546" />
+    <state x="393" y="6" key="CommitChangelistDialog2" timestamp="1586845689220">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="393" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584247646782" />
-    <state x="393" y="6" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1586845673714" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1582022922102">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="393" y="6" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1586845689220" />
+    <state width="1493" height="222" key="GridCell.Tab.0.bottom" timestamp="1586887787938">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582022922102" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1582022922098">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="222" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1586887787938" />
+    <state width="1493" height="222" key="GridCell.Tab.0.center" timestamp="1586887787938">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582022922098" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1582022922080">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="222" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1586887787938" />
+    <state width="1493" height="222" key="GridCell.Tab.0.left" timestamp="1586887787938">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582022922080" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1582022922099">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="222" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1586887787938" />
+    <state width="1493" height="222" key="GridCell.Tab.0.right" timestamp="1586887787938">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582022922099" />
+    <state width="1493" height="222" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1586887787938" />
     <state width="1493" height="427" key="GridCell.Tab.1.bottom" timestamp="1581918245770">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -332,26 +340,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="427" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581918245770" />
-    <state width="254" height="198" key="RunAnythingAction_Filter_Popup" timestamp="1578647851763">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="254" height="198" key="RunAnythingAction_Filter_Popup/0.0.1536.824@0.0.1536.824" timestamp="1578647851763" />
     <state x="277" y="56" key="SettingsEditor" timestamp="1581916747964">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581916747964" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1584247603898">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1587720203923">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584247603898" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587720203923" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1580465045462">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580465045462" />
-    <state x="209" y="34" key="new project wizard" timestamp="1579802953635">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="209" y="34" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1579802953635" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1581916726997">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
