@@ -1,3 +1,5 @@
+// PROGRAM TO PRINT THE DIAGONALS OF A 2 DIMENSIONAL MATRIX
+
 import java.util.Scanner;
 
 public class matrixDiagonal
