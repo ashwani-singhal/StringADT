@@ -1,7 +1,8 @@
 package myNode;
 
 public class TrieNode {
-    private TrieNode[] links;
+
+    private final TrieNode[] links;
     private final int R = 26;
     private boolean isEnd;
 

@@ -4,8 +4,8 @@ import myNode.TrieNode;
 import java.util.Scanner;
 
 public class Trie {
-    private final TrieNode root;
 
+    private final TrieNode root;
     public Trie(){
         root = new TrieNode();
     }
