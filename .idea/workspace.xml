@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2015981b-fc7b-4f98-b00a-229e448caa9e" name="Default Changelist" comment="" />
+    <list default="true" id="2015981b-fc7b-4f98-b00a-229e448caa9e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Trie_DS/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myNode/TrieNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +33,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -39,14 +44,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.matrixDiagonal">
-    <configuration name="NQueenProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NQueenProblem" />
-      <module name="StringADT" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Trie">
     <configuration name="NQueen_Col" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NQueen_Col" />
       <module name="StringADT" />
@@ -74,6 +72,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Trie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trie_DS.Trie" />
+      <module name="StringADT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trie_DS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="matrixDiagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="matrixDiagonal" />
       <module name="StringADT" />
@@ -83,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Trie" />
         <item itemvalue="Application.matrixDiagonal" />
         <item itemvalue="Application.Tilling_problem" />
         <item itemvalue="Application.NQueen_Col" />
         <item itemvalue="Application.NQueen_Row" />
-        <item itemvalue="Application.NQueenProblem" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +146,13 @@
       <workItem from="1588053920225" duration="1497000" />
       <workItem from="1588690259095" duration="2164000" />
       <workItem from="1588771480370" duration="59000" />
-      <workItem from="1589030821733" duration="1388000" />
+      <workItem from="1589030821733" duration="1796000" />
+      <workItem from="1589048893197" duration="135000" />
+      <workItem from="1589088328088" duration="28000" />
+      <workItem from="1590494630375" duration="1192000" />
+      <workItem from="1590496128450" duration="44000" />
+      <workItem from="1590496229913" duration="9000" />
+      <workItem from="1593147163106" duration="1372000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1561634809687</created>
@@ -277,7 +294,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589038264700</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="init commit">
+      <created>1589038666107</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1589038666107</updated>
+    </task>
+    <task id="LOCAL-00022" summary="init commit">
+      <created>1589038804258</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1589038804258</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,11 +353,11 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="449" y="168" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.864@0.0.1536.864" timestamp="1588690449546" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1589038263930">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1589038803486">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="393" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584247646782" />
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1589038263930" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1589038803486" />
     <state width="1493" height="222" key="GridCell.Tab.0.bottom" timestamp="1588695175308">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -367,15 +398,19 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581916747964" />
-    <state x="361" y="153" key="Vcs.Push.Dialog.v2" timestamp="1589038288438">
+    <state x="361" y="153" key="Vcs.Push.Dialog.v2" timestamp="1589038818353">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587720203923" />
-    <state x="361" y="153" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1589038288438" />
+    <state x="361" y="153" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1589038818353" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1580465045462">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580465045462" />
+    <state x="209" y="53" key="new project wizard" timestamp="1589038966526">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="209" y="53" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1589038966526" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1581916726997">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
